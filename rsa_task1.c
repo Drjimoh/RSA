@@ -13,9 +13,10 @@ OPENSSL_free(number_str);
 int main ()
 {
 BN_CTX *ctx = BN_CTX_new();
-BIGNUM *p = BN_new();
+BIGNUM *d = BN_new();
 BIGNUM *q = BN_new();
 BIGNUM *n = BN_new();
+BIGNUM *e = BN_new();
 BIGNUM *m = BN_new();
 BIGNUM *res = BN_new();
 
