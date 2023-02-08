@@ -54,3 +54,4 @@ printf("\nd = %lf",d);
 printf("\nEncrypted data = %lf",c);
 printf("\nOriginal Message Sent = %lf",m);
 return 0;
+}
