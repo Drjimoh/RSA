@@ -34,9 +34,9 @@ BN_hex2bn(&e, "010001");
 //calculate res = m^d mod n and print it as s
 BN_mod_exp(res, m, d, n, ctx);
 printBN("s = ", res);
-//message = I owe you $3000
+//message = Kelvin owe you $2000
 //message in hex = 49206f776520796f75202433303030
-BN_hex2bn(&m, "49206f776520796f75202433303030");
+BN_hex2bn(&m, "C260FFEB526F5146DD83F0A3896069E6E58E461C8B91A19DDAEC3CEBF026E272");
 BN_hex2bn(&n, 
 "DCBFFE3E51F62E09CE7032E2677A78946A849DC4CDDE3A4D0CB81629242FB1A
 5");
